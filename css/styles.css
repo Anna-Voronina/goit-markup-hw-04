@@ -8,7 +8,7 @@
   --secondary-hover-color: #31d0aa;
   --primary-background-color: #ffffff;
   --secondary-background-color: #f4f4fd;
-  --customers-link-color: #8e8f99;
+  --customers-link-color: #afb1b8;
 }
 
 h1,
@@ -77,7 +77,7 @@ body {
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -106,6 +106,8 @@ body {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-nav {
@@ -261,9 +263,6 @@ body {
   border-radius: 4px;
 }
 
-.about-us-icon {
-}
-
 .about-us-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -415,11 +414,12 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-container {
   margin-left: 156px;
-  margin-right: 160px;
+  margin-right: 120px;
   width: 294px;
 }
 
@@ -454,7 +454,7 @@ body {
 
 .footer-social-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-social-link {
