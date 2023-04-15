@@ -256,7 +256,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 100px;
+  height: 112px;
   margin-bottom: 8px;
 
   background-color: var(--secondary-background-color);
@@ -419,7 +419,6 @@ body {
 }
 
 .footer-logo-container {
-  margin-left: 156px;
   width: 294px;
 }
 
@@ -499,7 +498,7 @@ body {
 
 .filter-btn {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 11px 23px;
 
   font-weight: 500;
   font-size: 16px;
